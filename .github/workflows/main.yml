@@ -2,8 +2,8 @@ Jake: A workflow for my Hello World file
 on: push
 jobs:
   build:
-    name: Hellow world action
-  runs-on: ubuntu-latest
+    name: Hello world action
+  runs-on: mac
   steps:
     - uses: actions/checkout@vi
     - uses: ./action-a
